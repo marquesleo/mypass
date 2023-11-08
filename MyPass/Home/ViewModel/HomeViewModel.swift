@@ -40,6 +40,10 @@ extension HomeViewModel {
         
     }
     
+    func profileView() -> some View {
+        return HomeViewRouter.makeProfileView()
+    }
+    
     func CrudSenhaView() -> some View {
         return HomeViewRouter.makeCrudSenhaView()
         

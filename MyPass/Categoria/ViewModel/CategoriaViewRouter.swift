@@ -10,6 +10,7 @@ import Combine
 enum CategoriaCardViewRouter {
     static func makeCategoriaDetailView(id: UUID,
                                         descricao: String) -> some View {
+        
         let viewModel = CategoriaDetailViewModel(id: id, descricao: descricao)
       
         return CategoriaDetailView(viewModel: viewModel)

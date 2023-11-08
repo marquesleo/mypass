@@ -31,4 +31,9 @@ enum HomeViewRouter {
         return SenhaView(viewModel: viewModel)
     }
     
+    static func makeProfileView() -> some View {
+      
+        return ProfileView()
+    }
+    
 }

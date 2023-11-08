@@ -57,7 +57,8 @@ extension CategoriaDetailView {
              
         },
         disabled: false,
-        text: "Alterar",                          showProgressBar: self.viewModel.uiState == CategoriaDetailUIState.loading )
+        text: "Alterar",
+        showProgressBar: self.viewModel.uiState == CategoriaDetailUIState.loading )
         
         
     }
