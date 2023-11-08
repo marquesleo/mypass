@@ -41,7 +41,7 @@ struct HomeView: View {
                     Text("Lita Categoria")
                 }.tag("3")
             
-            viewModel.signUpView()
+            viewModel.profileView()
                 .tabItem{
                     Image(systemName: "person.crop.circle")
                     Text("Perfil")

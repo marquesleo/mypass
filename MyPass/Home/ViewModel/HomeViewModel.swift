@@ -11,6 +11,7 @@ import Combine
 class HomeViewModel: ObservableObject {
     @Published var uiState: SignInUIState = .none
     private let viewModel = CategoriaViewModel(interactor: CategoriaInInteractor())
+    private let profileViewModel = ProfileViewModel(interactor: ProfileInteractor(), interactorSignUP: SignUPInteractor())
     private let viewModelSenha = SenhaViewModel(interactor: SenhaInteractor())
     
     private let publisher = PassthroughSubject<Bool,Never>()
@@ -41,7 +42,7 @@ extension HomeViewModel {
     }
     
     func profileView() -> some View {
-        return HomeViewRouter.makeProfileView()
+        return HomeViewRouter.makeProfileView(viewModel: self.profileViewModel)
     }
     
     func CrudSenhaView() -> some View {

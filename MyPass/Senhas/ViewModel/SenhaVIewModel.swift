@@ -10,7 +10,7 @@ import Combine
 import SwiftUI
 class SenhaViewModel: ObservableObject {
     
-    @Published var uiState: SenhaUIState = .emptyList
+    @Published var uiState: SenhaUIState = .loading
     @Published var title = "Atenção"
     @Published var headLine = "Fique Ligado!"
     @Published var description = "Você está atrasado!"
@@ -57,7 +57,7 @@ class SenhaViewModel: ObservableObject {
     
     func onAppear() {
         self.opened = true
-        self.uiState = .emptyList
+        self.uiState = .loading
         
         cancellableRequest = interactor.getAll()
             .receive(on: DispatchQueue.main)

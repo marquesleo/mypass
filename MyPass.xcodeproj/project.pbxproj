@@ -13,6 +13,10 @@
 		1D541F4D2AFB254400E4C795 /* SignUpViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F4C2AFB254400E4C795 /* SignUpViewRouter.swift */; };
 		1D541F502AFB25B500E4C795 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F4F2AFB25B500E4C795 /* CustomTextFieldStyle.swift */; };
 		1D541F522AFB262600E4C795 /* CategoriaDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F512AFB262600E4C795 /* CategoriaDetailViewModel.swift */; };
+		1D541F542AFBF91C00E4C795 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F532AFBF91C00E4C795 /* ProfileViewModel.swift */; };
+		1D541F572AFC067E00E4C795 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F562AFC067E00E4C795 /* ProfileInteractor.swift */; };
+		1D541F592AFC069100E4C795 /* ProfileRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F582AFC069100E4C795 /* ProfileRemoteDataSource.swift */; };
+		1D541F5B2AFC080900E4C795 /* ProfileUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F5A2AFC080900E4C795 /* ProfileUIState.swift */; };
 		1D5439CD2AD9DA3000B2BF77 /* MyPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5439CC2AD9DA3000B2BF77 /* MyPassApp.swift */; };
 		1D5439D12AD9DA3200B2BF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5439D02AD9DA3200B2BF77 /* Assets.xcassets */; };
 		1D5439D42AD9DA3200B2BF77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5439D32AD9DA3200B2BF77 /* Preview Assets.xcassets */; };
@@ -90,6 +94,10 @@
 		1D541F4C2AFB254400E4C795 /* SignUpViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewRouter.swift; sourceTree = "<group>"; };
 		1D541F4F2AFB25B500E4C795 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
 		1D541F512AFB262600E4C795 /* CategoriaDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriaDetailViewModel.swift; sourceTree = "<group>"; };
+		1D541F532AFBF91C00E4C795 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		1D541F562AFC067E00E4C795 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
+		1D541F582AFC069100E4C795 /* ProfileRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRemoteDataSource.swift; sourceTree = "<group>"; };
+		1D541F5A2AFC080900E4C795 /* ProfileUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIState.swift; sourceTree = "<group>"; };
 		1D5439C92AD9DA3000B2BF77 /* MyPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5439CC2AD9DA3000B2BF77 /* MyPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassApp.swift; sourceTree = "<group>"; };
 		1D5439D02AD9DA3200B2BF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -195,6 +203,15 @@
 				1D541F4F2AFB25B500E4C795 /* CustomTextFieldStyle.swift */,
 			);
 			path = Style;
+			sourceTree = "<group>";
+		};
+		1D541F552AFC066200E4C795 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1D541F562AFC067E00E4C795 /* ProfileInteractor.swift */,
+				1D541F582AFC069100E4C795 /* ProfileRemoteDataSource.swift */,
+			);
+			path = Interactor;
 			sourceTree = "<group>";
 		};
 		1D5439C02AD9DA2F00B2BF77 = {
@@ -479,6 +496,7 @@
 		1D7C364E2AFB21E800638375 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				1D541F552AFC066200E4C795 /* Interactor */,
 				1D7C36512AFB221700638375 /* VIew */,
 				1D7C36502AFB220000638375 /* ViewModel */,
 				1D7C364F2AFB21F400638375 /* Model */,
@@ -489,6 +507,7 @@
 		1D7C364F2AFB21F400638375 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				1D541F5A2AFC080900E4C795 /* ProfileUIState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -496,6 +515,7 @@
 		1D7C36502AFB220000638375 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				1D541F532AFBF91C00E4C795 /* ProfileViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -757,6 +777,7 @@
 				1D5439DF2AD9DB0C00B2BF77 /* SplashView.swift in Sources */,
 				1DABD9C42AEABB3A0030CBFE /* SenhaView.swift in Sources */,
 				1DABD9D12AEB2FDD0030CBFE /* CategoriaService.swift in Sources */,
+				1D541F542AFBF91C00E4C795 /* ProfileViewModel.swift in Sources */,
 				1DABD9BA2AE9ECA80030CBFE /* CategoriaCardView.swift in Sources */,
 				1DABD9D32AEB4A620030CBFE /* SenhaDetailUIState.swift in Sources */,
 				1D543A1F2ADC49EF00B2BF77 /* LoadingButtonView.swift in Sources */,
@@ -774,10 +795,12 @@
 				1DABD9DB2AF07A4C0030CBFE /* SenhaDetailView.swift in Sources */,
 				1D543A1D2ADC47FE00B2BF77 /* String+Extension.swift in Sources */,
 				1DABD9C22AEAB7350030CBFE /* SenhaCardViewModel.swift in Sources */,
+				1D541F592AFC069100E4C795 /* ProfileRemoteDataSource.swift in Sources */,
 				1DABD9A92AE888440030CBFE /* CrudSenhaRemoteDataSource.swift in Sources */,
 				1D543A382AE4578A00B2BF77 /* SignUpRemoteDataSource.swift in Sources */,
 				1DABD9AF2AE9D8900030CBFE /* CategoriaView.swift in Sources */,
 				1DABD99B2AE84DBB0030CBFE /* CrudSenhaViewModel.swift in Sources */,
+				1D541F572AFC067E00E4C795 /* ProfileInteractor.swift in Sources */,
 				1DABD9B32AE9D9A00030CBFE /* CategoriaUIState.swift in Sources */,
 				1DABD9B82AE9EB8C0030CBFE /* CategoriaCardViewModel.swift in Sources */,
 				1D543A0C2ADAED1600B2BF77 /* LoginService.swift in Sources */,
@@ -795,6 +818,7 @@
 				1D543A2B2AE20B5300B2BF77 /* MinhaSenha.swift in Sources */,
 				1DABD9B62AE9E9A30030CBFE /* ButtonStyle.swift in Sources */,
 				1DABD9CD2AEB2F260030CBFE /* CategoriaRemoteDataSource.swift in Sources */,
+				1D541F5B2AFC080900E4C795 /* ProfileUIState.swift in Sources */,
 				1D7C36532AFB224000638375 /* ProfileView.swift in Sources */,
 				1D543A412AE739D300B2BF77 /* HomeViewRouter.swift in Sources */,
 				1D543A222ADDEE3F00B2BF77 /* UserService.swift in Sources */,
