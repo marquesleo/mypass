@@ -11,8 +11,6 @@ struct ProfileView: View {
 
     @ObservedObject var viewModel: ProfileViewModel
    
-
-    
     var disableDone: Bool {
        return viewModel.usernameValidation.failure ||
         viewModel.emailValidation.failure ||

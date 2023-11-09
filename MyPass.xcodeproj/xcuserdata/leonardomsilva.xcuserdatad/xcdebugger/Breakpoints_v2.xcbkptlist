@@ -2641,6 +2641,21 @@
                   endingLineNumber = "27"
                   offsetFromSymbolStart = "572">
                </Location>
+               <Location
+                  uuid = "A9F8426A-2F64-4C2E-A46F-DCEB5B82927D - b3d9f72cf4e6125b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MyPass.ServiceBase.Result) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Array&lt;MyPass.MinhaSenha&gt;, MyPass.AppError&gt;) -&gt; ()) -&gt; () in MyPass.SenhaService.getAll(idUsuario: Foundation.UUID) -&gt; Combine.Future&lt;Swift.Array&lt;MyPass.MinhaSenha&gt;, MyPass.AppError&gt;"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Service/SenhaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "760">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -2733,6 +2748,21 @@
                   startingLineNumber = "44"
                   endingLineNumber = "44"
                   offsetFromSymbolStart = "1480">
+               </Location>
+               <Location
+                  uuid = "93F6A2AB-F288-40C7-B2BD-C57F00212F5A - b3d9f72cf4e617e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MyPass.ServiceBase.Result) -&gt; () in closure #1 ((Swift.Result&lt;Swift.Array&lt;MyPass.MinhaSenha&gt;, MyPass.AppError&gt;) -&gt; ()) -&gt; () in MyPass.SenhaService.getAll(idUsuario: Foundation.UUID) -&gt; Combine.Future&lt;Swift.Array&lt;MyPass.MinhaSenha&gt;, MyPass.AppError&gt;"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Service/SenhaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "2020">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -3214,16 +3244,48 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "D669D1B3-764C-4126-8C5B-E278EF68FBF1"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "120"
-            endingLineNumber = "120"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "makeCrudSenhaView()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D669D1B3-764C-4126-8C5B-E278EF68FBF1 - e45b55f45ee38376"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPass.SenhaDetailViewModel.makeCrudSenhaView() -&gt; some"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "D669D1B3-764C-4126-8C5B-E278EF68FBF1 - e45b55f45ee383d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPass.SenhaDetailViewModel.makeCrudSenhaView() -&gt; some"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -3836,8 +3898,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "init(id:descricao:observacao:usuario:site:password:)"
             landmarkType = "7">
             <Locations>
@@ -3899,8 +3961,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "init(id:descricao:observacao:usuario:site:password:)"
             landmarkType = "7">
             <Locations>
@@ -4245,8 +4307,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
             landmarkName = "init(id:descricao:observacao:usuario:site:password:)"
             landmarkType = "7">
             <Locations>
@@ -4308,8 +4370,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "init(id:descricao:observacao:usuario:site:password:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4358,6 +4420,21 @@
                   startingLineNumber = "94"
                   endingLineNumber = "94"
                   offsetFromSymbolStart = "1384">
+               </Location>
+               <Location
+                  uuid = "D0E729F5-78E3-4C4B-BEC1-ABEAB73A396A - 22a2586530f4bb9d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (MyPass.ServiceBase.Result) -&gt; () in closure #1 ((Swift.Result&lt;MyPass.MinhaSenha, MyPass.AppError&gt;) -&gt; ()) -&gt; () in MyPass.SenhaService.get(id: Foundation.UUID) -&gt; Combine.Future&lt;MyPass.MinhaSenha, MyPass.AppError&gt;"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Service/SenhaService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "94"
+                  endingLineNumber = "94"
+                  offsetFromSymbolStart = "1880">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -4545,8 +4622,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "103"
-            endingLineNumber = "103"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
             landmarkName = "CarregarSenha(id:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4561,8 +4638,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "104"
-            endingLineNumber = "104"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
             landmarkName = "CarregarSenha(id:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4685,8 +4762,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
             landmarkName = "ExcluirSenha(id:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -4701,8 +4778,8 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
             landmarkName = "ExcluirSenha(id:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -5196,10 +5273,57 @@
             filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "init(id:descricao:observacao:usuario:site:password:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E8E23666-0A9F-4E3A-ABB6-FB00A924B61D - 55ca5bf048cc0afc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in MyPass.SenhaDetailViewModel.init(id: Foundation.UUID, descricao: Swift.String, observacao: Swift.String, usuario: Swift.String, site: Swift.String, password: Swift.String) -&gt; MyPass.SenhaDetailViewModel"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "E8E23666-0A9F-4E3A-ABB6-FB00A924B61D - 55ca5bf048cc0941"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in MyPass.SenhaDetailViewModel.init(id: Foundation.UUID, descricao: Swift.String, observacao: Swift.String, usuario: Swift.String, site: Swift.String, password: Swift.String) -&gt; MyPass.SenhaDetailViewModel"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "55"
+                  endingLineNumber = "55"
+                  offsetFromSymbolStart = "440">
+               </Location>
+               <Location
+                  uuid = "E8E23666-0A9F-4E3A-ABB6-FB00A924B61D - 55ca5bf048cc0960"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Bool) -&gt; () in MyPass.SenhaDetailViewModel.init(id: Foundation.UUID, descricao: Swift.String, observacao: Swift.String, usuario: Swift.String, site: Swift.String, password: Swift.String) -&gt; MyPass.SenhaDetailViewModel"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "440">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -5294,6 +5418,179 @@
             endingLineNumber = "93"
             landmarkName = "CarregarSenha(id:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F741DDD-5207-47C3-BCEF-5FF572A5D25F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "carregarRegistro()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D30860F0-5635-4C72-AE00-3406B5595952"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
+            landmarkName = "carregarRegistro()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "396EC3F5-FBA8-49C5-AB52-C1355E54FE42"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "129"
+            endingLineNumber = "129"
+            landmarkName = "updateSenhaView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB8C3A6B-739E-4120-8120-F8AE7A0772D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "updateSenhaView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "717D0A0B-9112-4584-A881-F8E2ED42D2C8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPass/Senhas/ViewModel/SenhaDetailViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "SenhaDetailViewModel"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03041917-175D-427B-BDF5-99D27DCA699C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "getImage()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03041917-175D-427B-BDF5-99D27DCA699C - 4b0808488aa5a8a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPass.SenhaUpdateViewModel.getImage() -&gt; SwiftUI.Image"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "568">
+               </Location>
+               <Location
+                  uuid = "03041917-175D-427B-BDF5-99D27DCA699C - 4b0808488aa5a8a0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPass.SenhaUpdateViewModel.getImage() -&gt; SwiftUI.Image"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "129"
+                  endingLineNumber = "129"
+                  offsetFromSymbolStart = "644">
+               </Location>
+               <Location
+                  uuid = "03041917-175D-427B-BDF5-99D27DCA699C - 4b0808488aa5a8e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPass.SenhaUpdateViewModel.getImage() -&gt; SwiftUI.Image"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "03041917-175D-427B-BDF5-99D27DCA699C - 4b0808488aa5a8e6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MyPass.SenhaUpdateViewModel.getImage() -&gt; SwiftUI.Image"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "540">
+               </Location>
+               <Location
+                  uuid = "03041917-175D-427B-BDF5-99D27DCA699C - 5589f86f4d710861"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "implicit closure #1 (__shared Swift.Substring) -&gt; Swift.String in MyPass.SenhaUpdateViewModel.getImage() -&gt; SwiftUI.Image"
+                  moduleName = "MyPass"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/leonardomsilva/FONTES/SWIFT/MyPass/MyPass/Senhas/ViewModel/SenhaUpdateViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

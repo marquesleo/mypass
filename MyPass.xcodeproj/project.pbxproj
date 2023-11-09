@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3EA5032AFC67D600FB56C5 /* SenhaUpdateUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3EA5022AFC67D600FB56C5 /* SenhaUpdateUIState.swift */; };
 		1D541F462AFB241D00E4C795 /* SenhaRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F452AFB241D00E4C795 /* SenhaRemoteDataSource.swift */; };
 		1D541F482AFB242B00E4C795 /* SenhaInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F472AFB242B00E4C795 /* SenhaInteractor.swift */; };
 		1D541F4B2AFB24F100E4C795 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F4A2AFB24F100E4C795 /* SplashInteractor.swift */; };
@@ -17,6 +18,8 @@
 		1D541F572AFC067E00E4C795 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F562AFC067E00E4C795 /* ProfileInteractor.swift */; };
 		1D541F592AFC069100E4C795 /* ProfileRemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F582AFC069100E4C795 /* ProfileRemoteDataSource.swift */; };
 		1D541F5B2AFC080900E4C795 /* ProfileUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F5A2AFC080900E4C795 /* ProfileUIState.swift */; };
+		1D541F5E2AFC649300E4C795 /* SenhaUpdateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F5D2AFC649300E4C795 /* SenhaUpdateView.swift */; };
+		1D541F602AFC64AF00E4C795 /* SenhaUpdateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D541F5F2AFC64AF00E4C795 /* SenhaUpdateViewModel.swift */; };
 		1D5439CD2AD9DA3000B2BF77 /* MyPassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5439CC2AD9DA3000B2BF77 /* MyPassApp.swift */; };
 		1D5439D12AD9DA3200B2BF77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5439D02AD9DA3200B2BF77 /* Assets.xcassets */; };
 		1D5439D42AD9DA3200B2BF77 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D5439D32AD9DA3200B2BF77 /* Preview Assets.xcassets */; };
@@ -88,6 +91,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D3EA5022AFC67D600FB56C5 /* SenhaUpdateUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaUpdateUIState.swift; sourceTree = "<group>"; };
 		1D541F452AFB241D00E4C795 /* SenhaRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaRemoteDataSource.swift; sourceTree = "<group>"; };
 		1D541F472AFB242B00E4C795 /* SenhaInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaInteractor.swift; sourceTree = "<group>"; };
 		1D541F4A2AFB24F100E4C795 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
@@ -98,6 +102,8 @@
 		1D541F562AFC067E00E4C795 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 		1D541F582AFC069100E4C795 /* ProfileRemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRemoteDataSource.swift; sourceTree = "<group>"; };
 		1D541F5A2AFC080900E4C795 /* ProfileUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileUIState.swift; sourceTree = "<group>"; };
+		1D541F5D2AFC649300E4C795 /* SenhaUpdateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaUpdateView.swift; sourceTree = "<group>"; };
+		1D541F5F2AFC64AF00E4C795 /* SenhaUpdateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenhaUpdateViewModel.swift; sourceTree = "<group>"; };
 		1D5439C92AD9DA3000B2BF77 /* MyPass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyPass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D5439CC2AD9DA3000B2BF77 /* MyPassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPassApp.swift; sourceTree = "<group>"; };
 		1D5439D02AD9DA3200B2BF77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -233,8 +239,8 @@
 		1D5439CB2AD9DA3000B2BF77 /* MyPass */ = {
 			isa = PBXGroup;
 			children = (
-				1D7C364E2AFB21E800638375 /* Profile */,
 				1D543A142ADC392700B2BF77 /* Common */,
+				1D7C364E2AFB21E800638375 /* Profile */,
 				1DABD9AA2AE9D84F0030CBFE /* Categoria */,
 				1DABD9BB2AEAB5F80030CBFE /* Senhas */,
 				1DABD9922AE84CFA0030CBFE /* CrudSenhas */,
@@ -646,6 +652,7 @@
 			children = (
 				1DABD9C72AEABB7E0030CBFE /* SenhaUIState.swift */,
 				1DABD9D22AEB4A620030CBFE /* SenhaDetailUIState.swift */,
+				1D3EA5022AFC67D600FB56C5 /* SenhaUpdateUIState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -658,6 +665,7 @@
 				1DABD9C52AEABB4C0030CBFE /* SenhaVIewModel.swift */,
 				1DABD9E02AF0A0170030CBFE /* SenhaCardViewRouter.swift */,
 				1DABD9E92AF1D1510030CBFE /* SenhaVIewRouter.swift */,
+				1D541F5F2AFC64AF00E4C795 /* SenhaUpdateViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -668,6 +676,7 @@
 				1DABD9BF2AEAB71E0030CBFE /* SenhaCardView.swift */,
 				1DABD9C32AEABB3A0030CBFE /* SenhaView.swift */,
 				1DABD9DA2AF07A4C0030CBFE /* SenhaDetailView.swift */,
+				1D541F5D2AFC649300E4C795 /* SenhaUpdateView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -789,6 +798,7 @@
 				1D543A0F2ADAFC2600B2BF77 /* User.swift in Sources */,
 				1DABD9C82AEABB7E0030CBFE /* SenhaUIState.swift in Sources */,
 				1D5439E42AD9FA5400B2BF77 /* SplashViewModel.swift in Sources */,
+				1D3EA5032AFC67D600FB56C5 /* SenhaUpdateUIState.swift in Sources */,
 				1DABD9A02AE858E40030CBFE /* iOSCheckboxToggleStyle.swift in Sources */,
 				1DABD9CF2AEB2F780030CBFE /* CategoriaInterector.swift in Sources */,
 				1D543A302AE446C000B2BF77 /* SignInRemoteDataSource.swift in Sources */,
@@ -796,6 +806,7 @@
 				1D543A1D2ADC47FE00B2BF77 /* String+Extension.swift in Sources */,
 				1DABD9C22AEAB7350030CBFE /* SenhaCardViewModel.swift in Sources */,
 				1D541F592AFC069100E4C795 /* ProfileRemoteDataSource.swift in Sources */,
+				1D541F5E2AFC649300E4C795 /* SenhaUpdateView.swift in Sources */,
 				1DABD9A92AE888440030CBFE /* CrudSenhaRemoteDataSource.swift in Sources */,
 				1D543A382AE4578A00B2BF77 /* SignUpRemoteDataSource.swift in Sources */,
 				1DABD9AF2AE9D8900030CBFE /* CategoriaView.swift in Sources */,
@@ -813,6 +824,7 @@
 				1DABD9E32AF0A9E60030CBFE /* CategoriaViewRouter.swift in Sources */,
 				1D541F462AFB241D00E4C795 /* SenhaRemoteDataSource.swift in Sources */,
 				1D543A242ADDEE6A00B2BF77 /* ServiceError.swift in Sources */,
+				1D541F602AFC64AF00E4C795 /* SenhaUpdateViewModel.swift in Sources */,
 				1DABD9D52AEB4AE10030CBFE /* SenhaDetailViewModel.swift in Sources */,
 				1D541F502AFB25B500E4C795 /* CustomTextFieldStyle.swift in Sources */,
 				1D543A2B2AE20B5300B2BF77 /* MinhaSenha.swift in Sources */,

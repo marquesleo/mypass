@@ -13,6 +13,9 @@ class SenhaDetailViewModel: ObservableObject {
     @Published var value = ""
     var cancellables = Set<AnyCancellable>()
     
+    private let viewModel = SenhaUpdateViewModel(interactor: CrudSenhaInteractor())
+  
+    
     var Id: UUID
     var Descricao:String
     var Obervacao:String
@@ -44,7 +47,9 @@ class SenhaDetailViewModel: ObservableObject {
         self.Usuario = usuario
         self.Site = site
         self.Password = password
-      
+        
+        self.viewModel.id = self.Id
+        
         cancellableNotify = senhaDetailPublisher.sink(receiveValue: {
             saved in
             print("Foi alterado")
@@ -106,7 +111,7 @@ class SenhaDetailViewModel: ObservableObject {
                 self.Site = sucess.Site
                 self.Usuario = sucess.Usuario_Site
                 self.Obervacao = sucess.Observacao ?? ""
-              
+                self.senhaViewPublisher?.send(true)
                 
             }
         
@@ -120,7 +125,13 @@ extension SenhaDetailViewModel{
         return SenhaCardViewRouter.makeCrudSenhaView(Id: self.Id)
     }
     
-    func updateCrudSenhaView() -> some View {
-        return SenhaCardViewRouter.updateCrudSenhaView(Id: self.Id, senhaPublisher: self.senhaDetailPublisher)
+    func updateSenhaView() -> some View {
+       
+        if self.viewModel.uiState != SenhaUpdateUIState.fetchSuccess
+        {
+            self.viewModel.senhaPublisher = self.senhaViewPublisher
+            self.viewModel.carregarRegistro()
+        }
+        return SenhaCardViewRouter.updateCrudSenhaView(viewModel: self.viewModel)
     }
 }

@@ -13,7 +13,7 @@ class ProfileViewModel : ObservableObject {
     
     @Published var usernameValidation = UsernameValidation()
     @Published var emailValidation = EmailValidation()
-    @Published var senhaValidation = SenhaValidation()
+    @Published var senhaValidation = Senha_FormProfileValidation()
     
     var userId: UUID?
     @Published var username = ""
@@ -132,7 +132,7 @@ class EmailValidation: ObservableObject {
     }
 }
 
-class SenhaValidation: ObservableObject {
+class Senha_FormProfileValidation: ObservableObject {
     @Published var failure = false
     var value: String = ""{
         didSet {

@@ -82,7 +82,7 @@ extension SenhaDetailView {
     var UpdateButton: some View {
        
         NavigationLink(
-            destination: viewModel.updateCrudSenhaView(),
+            destination: viewModel.updateSenhaView(),
             isActive: self.$action,
             label: {
                 Label("Alterar", systemImage: "pencil")

@@ -35,11 +35,10 @@ enum SenhaCardViewRouter {
         return CrudSenhaView(viewModel: viewModel, alteracao: false, id: Id)
     }
     
-    static func updateCrudSenhaView(Id:UUID, senhaPublisher:PassthroughSubject<Bool,Never>) -> some View
+    static func updateCrudSenhaView(viewModel:SenhaUpdateViewModel) -> some View
     {
-        let viewModel = CrudSenhaViewModel(interactor: CrudSenhaInteractor())
-        viewModel.senhaPublisher = senhaPublisher
-        return CrudSenhaView(viewModel: viewModel, alteracao: true, id: Id)
+      
+        return SenhaUpdateView(viewModel: viewModel)
     }
   
 }

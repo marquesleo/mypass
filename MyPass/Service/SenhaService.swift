@@ -40,8 +40,8 @@ class SenhaService {
                     //do {
                         let response = try?  decoder.decode([MinhaSenha].self, from: data)
                         guard let response = response else {
-                            let msg  = String(data:data, encoding: .utf8)
-                            let err = String(data:data, encoding: .utf8)!
+                            //let msg  = String(data:data, encoding: .utf8)
+                            //let err = String(data:data, encoding: .utf8)!
                             print("Log: Error parser \(String(data:data, encoding: .utf8)!)")
                             return
                         }
@@ -78,7 +78,7 @@ class SenhaService {
                         
                         if (error == .badRequest) {
                             let decoder =  JSONDecoder()
-                            let msg  = String(data:data, encoding: .utf8)
+                           // let msg  = String(data:data, encoding: .utf8)
                             let response = try?  decoder.decode(MeuErro.self, from: data)
                             promise(.failure(AppError.response(message: response?.message ?? "Erro desconhecido no servidor")))
                         }
